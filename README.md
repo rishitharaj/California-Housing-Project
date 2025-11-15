@@ -29,7 +29,7 @@ The dataset contains information about various features of houses in California 
 
 ```
 📂 california-housing-regression
-├── California_Housing_Regression_Assignment.ipynb   # Main Jupyter Notebook
+├── California_Housing_Regression_Assignment.ipynb   # Main Notebook
 ├── README.md                                        # Project documentation (this file)
 └── requirements.txt                                 # Python dependencies (optional)
 ```
