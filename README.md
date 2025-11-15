@@ -76,14 +76,16 @@ Performance metrics are displayed in a comparison table and visualized with bar 
 | Model             |     MSE ↓     |     MAE ↓     |         R² ↑    |
 | :---------------- | -------------:| -------------:| -------------:  |
 | Linear Regression |   0.555892    | 	0.533200    |     0.575788    |
-| Decision Tree     |   ...     |       ... |  ... |
-| Random Forest     |   ... |   ... |  ... |
-| Gradient Boosting |   ... |   ... |  ... |
-| SVR               |   ... |   ... |  ... |
+| Decision Tree     |   0.495235    | 	0.454679    |     0.622076    |
+| SVR               |   0.323697    | 	0.377445    |     0.752980    |
+| Gradient Boosting |   0.261498    | 	0.348343    |     0.800445    |
+| Random Forest     |   0.255368    | 	0.327543    |     0.805123    |
 
-> **Best Model:** Likely **Random Forest** or **Gradient Boosting**, due to their ensemble learning capability.
 
-> **Worst Model:** Likely **Decision Tree**, due to overfitting and high variance.
+
+> **Best Model:** **Random Forest** or **Gradient Boosting**, due to their ensemble learning capability.
+
+> **Worst Model:** **Linear Reg** or **Decision Tree**, due to overfitting and high variance.
 
 ---
 
@@ -92,31 +94,23 @@ Performance metrics are displayed in a comparison table and visualized with bar 
 ### 1. Clone this repository
 
 ```bash
-git clone https://github.com/<your-username>/california-housing-regression.git
-cd california-housing-regression
+git clone https://github.com/rishitharaj/California-Housing-Project.git
+cd California-Housing-Project
 ```
 
-### 2. Create a virtual environment (optional but recommended)
-
-```bash
-python -m venv venv
-source venv/bin/activate  # (on macOS/Linux)
-venv\Scripts\activate     # (on Windows)
-```
-
-### 3. Install dependencies
+### 2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Launch Jupyter Notebook
+### 3. Launch Jupyter Notebook
 
 ```bash
 jupyter notebook
 ```
 
-Then open `California_Housing_Regression_Assignment.ipynb` and run all cells.
+Then open .ipynb and run all cells.
 
 ---
 
@@ -130,19 +124,11 @@ pandas
 scikit-learn
 matplotlib
 ```
-
-You can export them with:
-
-```bash
-pip freeze > requirements.txt
-```
-
 ---
 
 ## ✨ Acknowledgments
 
 Dataset provided by **Scikit-learn**.
-Assignment designed to evaluate understanding of **supervised regression techniques**.
 
 ---
 
