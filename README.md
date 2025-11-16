@@ -83,9 +83,12 @@ Performance metrics are displayed in a comparison table and visualized with bar 
 
 
 
-> **Best Model:** **Random Forest** or **Gradient Boosting**, due to their ensemble learning capability.
+> **Best Model:** **Random Forest**
+Because of its low errors, high R², and strong ability to model nonlinear interactions.
 
-> **Worst Model:** **Linear Reg** or **Decision Tree**, due to overfitting and high variance.
+> **Worst Model:** **Linear Regression**
+Because the dataset has nonlinear relationships that cannot be captured by straight-line modeling.
+
 
 ---
 
