@@ -28,7 +28,7 @@ The dataset contains information about various features of houses in California 
 ## 🧩 Project Structure
 
 ```
-📂 california-housing-regression
+📂 California-Housing-Project
 ├── California_Housing_Regression_Assignment.ipynb   # Main Notebook
 ├── README.md                                        # Project documentation (this file)
 └── requirements.txt                                 # Python dependencies (optional)
@@ -110,7 +110,7 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-Then open .ipynb and run all cells.
+Then open California_Housing_Regression_Assignment.ipynb and run all cells.
 
 ---
 
